@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicRelationship", "BasicRelationship\BasicRelationship.csproj", "{647351E0-E1DE-4F11-BCB1-523312CA6DD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{0D544520-0BEC-40E0-A7E5-66EA11F08F40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{647351E0-E1DE-4F11-BCB1-523312CA6DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647351E0-E1DE-4F11-BCB1-523312CA6DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{647351E0-E1DE-4F11-BCB1-523312CA6DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D544520-0BEC-40E0-A7E5-66EA11F08F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D544520-0BEC-40E0-A7E5-66EA11F08F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D544520-0BEC-40E0-A7E5-66EA11F08F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D544520-0BEC-40E0-A7E5-66EA11F08F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
