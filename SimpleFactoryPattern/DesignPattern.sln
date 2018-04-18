@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoPattern", "MemoPattern\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{DDFE2AAC-75DA-40F2-B3CB-FDB30989C697}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{DDFE2AAC-75DA-40F2-B3CB-FDB30989C697}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDFE2AAC-75DA-40F2-B3CB-FDB30989C697}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDFE2AAC-75DA-40F2-B3CB-FDB30989C697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
