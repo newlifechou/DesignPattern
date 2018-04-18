@@ -12,10 +12,14 @@ namespace ObserverPattern
         {
             Person p1 = new Person("Jack");
             Person p2 = new Person("Peter");
-            CommonObserver observer = new CommonObserver();
-            observer.Add(p1);
-            observer.Add(p2);
-            observer.Notify();
+            //CommonObserver observer = new CommonObserver();
+            //observer.Add(p1);
+            //observer.Add(p2);
+            //observer.Notify();
+            EventObserver observer = new EventObserver();
+            observer.Notification += p1.Update;
+            observer.Notification += p2.Update;
+            observer.OnNotification();
 
             Console.Read();
         }

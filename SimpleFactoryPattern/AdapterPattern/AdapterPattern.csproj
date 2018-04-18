@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6EE1595A-DBF0-4F86-BEA5-7B34A1B86672}</ProjectGuid>
+    <ProjectGuid>{0357DDE9-846D-4C35-868A-238C62743609}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ObserverPattern</RootNamespace>
-    <AssemblyName>ObserverPattern</AssemblyName>
+    <RootNamespace>AdapterPattern</RootNamespace>
+    <AssemblyName>AdapterPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommonObserver.cs" />
-    <Compile Include="EventObserver.cs" />
-    <Compile Include="IAction.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Adaptee.cs" />
+    <Compile Include="Adapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Target.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
