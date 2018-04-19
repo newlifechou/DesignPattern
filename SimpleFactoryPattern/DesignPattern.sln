@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "Composi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{597C5138-9B5E-4F1A-A9AB-F38D0FA3BA7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2532ABC2-4DF6-4F5B-935E-1910C3F8075D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597C5138-9B5E-4F1A-A9AB-F38D0FA3BA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597C5138-9B5E-4F1A-A9AB-F38D0FA3BA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597C5138-9B5E-4F1A-A9AB-F38D0FA3BA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597C5138-9B5E-4F1A-A9AB-F38D0FA3BA7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

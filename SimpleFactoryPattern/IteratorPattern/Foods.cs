@@ -9,13 +9,10 @@ namespace IteratorPattern
 {
     class Foods : IEnumerable<string>
     {
-        private string[] foods = new string[10];
+        private string[] foods;
         public Foods()
         {
-            for (int i = 0; i < foods.Length; i++)
-            {
-                foods[i] = "food " + i;
-            }
+
         }
         public IEnumerator<string> GetEnumerator()
         {
