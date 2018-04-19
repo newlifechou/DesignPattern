@@ -12,7 +12,6 @@ namespace StatePattern
         public StateContext(State state)
         {
             this.state = state;
-            Condition = 1;
         }
         public State CurrentState
         {
